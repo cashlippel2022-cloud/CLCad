@@ -1,0 +1,28 @@
+# Operating System Junk
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# SolidWorks Lock & Temp Files
+~$*.sldprt
+~$*.sldasm
+~$*.slddrw
+~$*.prt
+~$*.asm
+*.sldbck
+*.swp
+*.bak
+*AutoRecover*
+*.cwr
+*.cwz
+
+# Autodesk / Fusion / DXF Temp
+*.dwl
+*.dwl2
+*.lck
+*.tmp
+
+# Slicer / CAM scratchpads
+*.gcode.tmp
+*.log
