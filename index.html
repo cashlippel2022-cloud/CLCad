@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freelance CAD & Mechanical Design Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    h1, h2, h3, .font-heading { font-family: 'Space Grotesk', sans-serif; }
+  </style>
+</head>
+<body class="bg-zinc-950 text-zinc-100 antialiased selection:bg-orange-500 selection:text-white">
+
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-zinc-950/80 border-b border-zinc-800">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <span class="font-heading text-lg font-bold tracking-tight text-white flex items-center gap-2">
+        <span class="w-2.5 h-2.5 rounded-full bg-orange-500 inline-block animate-pulse"></span>
+        CAD Studio
+      </span>
+      <nav class="hidden md:flex items-center gap-8 text-sm text-zinc-400 font-medium">
+        <a href="#services" class="hover:text-white transition-colors">Services</a>
+        <a href="#projects" class="hover:text-white transition-colors">Projects</a>
+        <a href="#workflow" class="hover:text-white transition-colors">Workflow</a>
+        <a href="#contact" class="px-4 py-2 rounded-lg bg-orange-500 hover:bg-orange-600 text-white font-semibold transition-colors">Request a Quote</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-6">
+    <section class="pt-24 pb-20 border-b border-zinc-800">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-zinc-900 border border-zinc-700 text-xs text-zinc-300 mb-6">
+        <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+        Available for Evening & Contract Projects
+      </div>
+      <h1 class="text-4xl md:text-6xl font-bold tracking-tight text-white max-w-3xl leading-tight">
+        <p class="mt-6 text-lg text-zinc-400 max-w-2xl leading-relaxed">
+          Production-ready CAD, reverse engineering, and sheet metal drafting.
+      </h1>
+      <p class="mt-6 text-lg text-zinc-400 max-w-2xl leading-relaxed">
+        I convert rough sketches, physical prototypes, and broken parts into accurate 3D CAD models, manufacturing drawings, and cut-ready DXF files.
+      </p>
+      <div class="mt-8 flex flex-wrap gap-4">
+        <a href="#projects" class="px-6 py-3 rounded-lg bg-orange-500 hover:bg-orange-600 text-white font-medium transition-colors">View Case Studies</a>
+        <a href="#contact" class="px-6 py-3 rounded-lg bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 text-zinc-200 font-medium transition-colors">Get an Estimate</a>
+      </div>
+    </section>
+
+    <section id="services" class="py-20 border-b border-zinc-800">
+      <h2 class="text-xs uppercase tracking-widest text-orange-500 font-bold mb-3">Capabilities</h2>
+      <h3 class="text-3xl font-bold text-white mb-10">What I Deliver</h3>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="p-6 rounded-xl bg-zinc-900/50 border border-zinc-800 hover:border-zinc-700 transition-colors">
+          <div class="text-orange-500 mb-4 font-mono font-bold text-lg">01 / DFM</div>
+          <h4 class="text-xl font-semibold text-white mb-2">3D Modeling & Enclosures</h4>
+          <p class="text-zinc-400 text-sm leading-relaxed mb-4">Parametric part design for 3D printing (FDM/SLA) and CNC milling. Clean fits, snap-joints, and fastener hardware tolerances.</p>
+          <span class="text-xs text-zinc-500 font-mono">STEP • STL • Native CAD</span>
+        </div>
+
+        <div class="p-6 rounded-xl bg-zinc-900/50 border border-zinc-800 hover:border-zinc-700 transition-colors">
+          <div class="text-orange-500 mb-4 font-mono font-bold text-lg">02 / FAB</div>
+          <h4 class="text-xl font-semibold text-white mb-2">Sheet Metal Flat Patterns</h4>
+          <p class="text-zinc-400 text-sm leading-relaxed mb-4">Flat-pattern layout optimization for SendCutSend, OshCut, or local plasma/laser cutters with exact bend deduction callouts.</p>
+          <span class="text-xs text-zinc-500 font-mono">1:1 DXF • PDF Bending Maps</span>
+        </div>
+
+        <div class="p-6 rounded-xl bg-zinc-900/50 border border-zinc-800 hover:border-zinc-700 transition-colors">
+          <div class="text-orange-500 mb-4 font-mono font-bold text-lg">03 / REV</div>
+          <h4 class="text-xl font-semibold text-white mb-2">Reverse Engineering</h4>
+          <p class="text-zinc-400 text-sm leading-relaxed mb-4">Recreating obsolete brackets, broken plastic fittings, and custom automotive interior mounts from caliper measurements and photos.</p>
+          <span class="text-xs text-zinc-500 font-mono">Dimensioned 2D Drawings • Assemblies</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="py-20 border-b border-zinc-800">
+      <h2 class="text-xs uppercase tracking-widest text-orange-500 font-bold mb-3">Portfolio</h2>
+      <h3 class="text-3xl font-bold text-white mb-10">Featured Projects</h3>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="group rounded-xl overflow-hidden border border-zinc-800 bg-zinc-900/40">
+          <div class="h-56 bg-zinc-800 flex items-center justify-center border-b border-zinc-800 p-6 text-center">
+            <span class="text-zinc-500 text-sm font-mono">[ CAD Render / Exploded View Preview ]</span>
+          </div>
+          <div class="p-6">
+            <div class="flex items-center gap-2 mb-2">
+              <span class="text-xs font-mono px-2 py-0.5 rounded bg-zinc-800 text-zinc-300">Automotive</span>
+              <span class="text-xs font-mono px-2 py-0.5 rounded bg-zinc-800 text-zinc-300">ABS Plastic</span>
+            </div>
+            <h4 class="text-xl font-semibold text-white">Custom Interior Console Bracket</h4>
+            <p class="text-sm text-zinc-400 mt-2">Modeled replacement mounting brackets and switch panels to fit factory mounting holes without drilling into body panels.</p>
+          </div>
+        </div>
+
+        <div class="group rounded-xl overflow-hidden border border-zinc-800 bg-zinc-900/40">
+          <div class="h-56 bg-zinc-800 flex items-center justify-center border-b border-zinc-800 p-6 text-center">
+            <span class="text-zinc-500 text-sm font-mono">[ 2D Blueprint / Dimensioned Drawing ]</span>
+          </div>
+          <div class="p-6">
+            <div class="flex items-center gap-2 mb-2">
+              <span class="text-xs font-mono px-2 py-0.5 rounded bg-zinc-800 text-zinc-300">Sheet Metal</span>
+              <span class="text-xs font-mono px-2 py-0.5 rounded bg-zinc-800 text-zinc-300">5052 Aluminum</span>
+            </div>
+            <h4 class="text-xl font-semibold text-white">Laser-Cut Reservoir Mount</h4>
+            <p class="text-sm text-zinc-400 mt-2">Designed a dual-bend fluid reservoir bracket with weight-reduction cutouts, bend reliefs, and direct 1:1 DXF profile export.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="workflow" class="py-20 border-b border-zinc-800">
+      <h2 class="text-xs uppercase tracking-widest text-orange-500 font-bold mb-3">Process</h2>
+      <h3 class="text-3xl font-bold text-white mb-10">Straightforward Workflow</h3>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="p-4 border-l-2 border-orange-500 pl-4">
+          <h5 class="text-base font-semibold text-white">1. Scope & Specs</h5>
+          <p class="text-xs text-zinc-400 mt-1">Send sketches, caliper dimensions, or photos along with design requirements.</p>
+        </div>
+        <div class="p-4 border-l-2 border-zinc-700 pl-4">
+          <h5 class="text-base font-semibold text-white">2. Fixed Quote</h5>
+          <p class="text-xs text-zinc-400 mt-1">Receive a flat-rate price, delivery deadline, and clear revision guidelines.</p>
+        </div>
+        <div class="p-4 border-l-2 border-zinc-700 pl-4">
+          <h5 class="text-base font-semibold text-white">3. Visual Proof</h5>
+          <p class="text-xs text-zinc-400 mt-1">Review 3D views and draft drawings before final approval and sign-off.</p>
+        </div>
+        <div class="p-4 border-l-2 border-zinc-700 pl-4">
+          <h5 class="text-base font-semibold text-white">4. File Package</h5>
+          <p class="text-xs text-zinc-400 mt-1">Receive organized production packages (.STEP, .STL, .DXF, or PDF drawings).</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-20">
+      <div class="max-w-xl mx-auto text-center">
+        <h2 class="text-3xl font-bold text-white mb-4">Have a project in mind?</h2>
+        <p class="text-zinc-400 text-sm mb-8">Send over sketches, dimensions, or file requirements. I review all submissions and reply within 24 hours.</p>
+        
+        <form class="text-left space-y-4 bg-zinc-900/60 p-6 rounded-xl border border-zinc-800">
+          <div>
+            <label class="block text-xs font-semibold text-zinc-300 mb-1">Your Name</label>
+            <input type="text" class="w-full px-3 py-2 rounded-lg bg-zinc-800 border border-zinc-700 text-white text-sm focus:outline-none focus:border-orange-500" placeholder="John Doe">
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-zinc-300 mb-1">Email Address</label>
+            <input type="email" class="w-full px-3 py-2 rounded-lg bg-zinc-800 border border-zinc-700 text-white text-sm focus:outline-none focus:border-orange-500" placeholder="john@example.com">
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-zinc-300 mb-1">Project Description</label>
+            <textarea rows="3" class="w-full px-3 py-2 rounded-lg bg-zinc-800 border border-zinc-700 text-white text-sm focus:outline-none focus:border-orange-500" placeholder="Describe the part, required tolerances, and manufacturing method..."></textarea>
+          </div>
+          <button type="submit" class="w-full py-3 bg-orange-500 hover:bg-orange-600 font-semibold text-white rounded-lg text-sm transition-colors">
+            Send Inquiry
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-zinc-900 py-8 text-center text-xs text-zinc-600">
+    © 2026 CAD & Mechanical Design Services. Built for custom fabrication.
+  </footer>
+
+</body>
+</html>
